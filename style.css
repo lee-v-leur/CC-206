@@ -106,7 +106,7 @@ body {
 .about-wrapper {
   display: flex;
   gap: 2rem;
-  align-items: flex-start; /* align top of text and image */
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -118,12 +118,12 @@ body {
 }
 
 .about-pic img {
-  max-height: 350px; /* set maximum height to match text naturally */
-  width: auto;        /* keep portrait ratio */
+  max-height: 350px;
+  width: auto;
   display: block;
   border-radius: 15px;
   border: 2px solid black;
-  object-fit: cover;  /* fills container nicely without flipping */
+  object-fit: cover;
 }
 
 /* Text container */
