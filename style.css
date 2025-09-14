@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -80,7 +79,7 @@ body {
 }
 
 .hero-name .name-highlight {
-  color: #ff6699; /* your preferred highlight color */
+  color: #ff6699;
 }
 
 .hero-sub span {
