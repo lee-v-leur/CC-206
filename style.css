@@ -1,0 +1,275 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #a8d8ea, #fbc2eb, #fff5ba);
+  background-attachment: fixed;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+  z-index: 1000;
+}
+
+.navbar .logo img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar nav ul li {
+  margin: 0 1rem;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+  color: #ff6699;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.hero-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-name .name-highlight {
+  color: #ff6699; /* your preferred highlight color */
+}
+
+.hero-sub span {
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 5px;
+  font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.about {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start; /* align top of text and image */
+  flex-wrap: wrap;
+}
+
+/* Image container */
+.about-pic {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-pic img {
+  max-height: 350px; /* set maximum height to match text naturally */
+  width: auto;        /* keep portrait ratio */
+  display: block;
+  border-radius: 15px;
+  border: 2px solid black;
+  object-fit: cover;  /* fills container nicely without flipping */
+}
+
+/* Text container */
+.about-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.details {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.details-institution {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.exp-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.role {
+  font-weight: 600;
+  display: block;
+}
+
+.org {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Portfolio Section */
+.portfolio {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.portfolio-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.portfolio-card p {
+  font-size: 0.95rem;
+}
+
+/* Contact Section */
+.contact {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.contact-form button {
+  background: #ff6699;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #ff3366;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-pic {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .navbar nav ul {
+    flex-direction: column;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    display: none;
+  }
+  .navbar nav ul li {
+    margin: 1rem 0;
+  }
+}
