@@ -1,4 +1,4 @@
-This is a personal portfolio website for **Leann Villaruel**, showcasing personal information, experience, past works, and a contact section. The site is built with HTML, CSS, and JavaScript, featuring modern design trends like glassmorphism, pastel colors, and responsive layouts.
+This is a personal portfolio website for **Leann Villaruel** for **Assignment 4** in **CC-206 Applications Development and Emerging Technologies**. The site is built with HTML, CSS, and JavaScript, featuring modern design trends like glassmorphism, pastel colors, and responsive layouts.
 
 ---
 
