@@ -1,6 +1,4 @@
-# Leann Villaruel Portfolio
-
-This is a personal portfolio website for **Leann Villaruel**, showcasing personal information, experience, past works, and a contact section. The site is built with **HTML, CSS, and JavaScript**, featuring modern design trends like **glassmorphism**, pastel colors, and responsive layouts.
+This is a personal portfolio website for **Leann Villaruel**, showcasing personal information, experience, past works, and a contact section. The site is built with HTML, CSS, and JavaScript, featuring modern design trends like glassmorphism, pastel colors, and responsive layouts.
 
 ---
 
@@ -12,8 +10,7 @@ This is a personal portfolio website for **Leann Villaruel**, showcasing persona
   - Glassmorphic container
 
 - **About Section:**  
-  - Personal information (Name, Age, Location, Institution)  
-  - Experience divided into **Current** and **Past** roles  
+  - Personal information (Name, Age, Location, Institution, Current and Past Experience)  
   - Portrait photo beside the text, perfectly scaled vertically  
   - Glassmorphism background
 
@@ -27,7 +24,7 @@ This is a personal portfolio website for **Leann Villaruel**, showcasing persona
   - Glassmorphic container
 
 - **Navbar:**  
-  - Fixed top navigation with **logo image**  
+  - Fixed top navigation with logo  
   - Links scroll to respective sections
 
 - **Design & Styling:**  
