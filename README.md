@@ -5,18 +5,17 @@ This is a personal portfolio website for **Leann Villaruel**, showcasing persona
 ## Features
 
 - **Hero Section:**  
-  - Typewriter effect introducing roles (e.g., BSCS 3B AI Student, Creative Leader, Innovator)  
+  - Typewriter effect introducing roles 
   - Highlighted name with custom color  
   - Glassmorphic container
 
 - **About Section:**  
-  - Personal information (Name, Age, Location, Institution, Current and Past Experience)  
-  - Portrait photo beside the text, perfectly scaled vertically  
+  - Personal information
+  - Portrait photo beside the text 
   - Glassmorphism background
 
 - **Portfolio Section:**  
   - Cards displaying past works/projects  
-  - Responsive grid layout
 
 - **Contact Section:**  
   - Horizontal layout filling available width  
@@ -30,7 +29,6 @@ This is a personal portfolio website for **Leann Villaruel**, showcasing persona
 - **Design & Styling:**  
   - Pastel color scheme (blue, pink, yellow)  
   - Glassmorphism effect for sections  
-  - Responsive design for mobile and desktop
 
 ---
 
@@ -38,7 +36,7 @@ This is a personal portfolio website for **Leann Villaruel**, showcasing persona
 
 - HTML5  
 - CSS3  
-- JavaScript (for typewriter effect)  
+- JavaScript
 - Flexbox & Grid for responsive layout  
 
 ---
