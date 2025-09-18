@@ -29,7 +29,11 @@ It mimics the experience of flipping through a book, with pages for profile, exp
 
 ## Project Structure
 ├── index.html        # Main HTML file
+
 ├── style.css         # Styling
+
 ├── script.js         # Flipbook interactions
+
 ├── img/              # Images (profile, etc.)
+
 └── README.md         # Project documentation
