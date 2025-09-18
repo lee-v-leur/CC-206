@@ -229,7 +229,7 @@ body{
 
 .number-page-1 {
     position: absolute;
-    bottom: -355px;
+    bottom: -353px;
     left: 45%;
     transform: translateX(-50%);
 }
@@ -254,17 +254,22 @@ body{
 
 .nextprev-btn.back {
     left: -4.5rem;
-    bottom: -1rem;
-}
-.nextprev-btn.back:hover {
-    color: var(--main-color);
+    bottom: -22.3rem;
 }
 
-.bx-chevron-left:before {
-    content: "\f295";
-    position: absolute;
-    left: 40px;
-    bottom: -3px;
+.nextprev-btn.back1 {
+    left: -4.5rem;
+    bottom: -1rem;
+}
+
+.nextprev-btn.back2 {
+    left: .3rem;
+    bottom: -1rem;
+}
+
+
+.nextprev-btn.back:hover {
+    color: var(--main-color);
 }
 
 .services-box{
@@ -392,8 +397,3 @@ body{
     top: 154px;
 }
 
-.bx-chevron-left:before {
-    content: "\f295";
-    position: absolute;
-    top: 340px;
-}
