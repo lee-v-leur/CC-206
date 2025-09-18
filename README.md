@@ -1,49 +1,26 @@
-This is a personal portfolio website for **Leann Villaruel** for **Assignment 4** in **CC-206 Applications Development and Emerging Technologies**. The site is built with HTML, CSS, and JavaScript, featuring modern design trends like glassmorphism, pastel colors, and responsive layouts.
-
----
+A flipbook-style portfolio website built with HTML, CSS, and JavaScript. 
+It mimics the experience of flipping through a book, with pages for profile, experience, education, services, and contact.
 
 ## Features
 
-- **Hero Section:**  
-  - Typewriter effect introducing roles 
-  - Highlighted name with custom color  
-  - Glassmorphic container
+  -Interactive page-turning animation
+  -Profile page with image, bio, and social links
+  -Experience and education timeline
+  -Services section (UI/UX, Web Development, Graphic Design, Branding)
+  -Contact form layout
+  -Responsive design with wrapping for smaller screens
 
-- **About Section:**  
-  - Personal information
-  - Portrait photo beside the text 
-  - Glassmorphism background
 
-- **Portfolio Section:**  
-  - Cards displaying past works/projects  
+## Tech Stack
+  -HTML5
+  -CSS3 (Flexbox, gradients, transitions)
+  -JavaScript
+  -Boxicons for icons
+  -Google Fonts (Poppins) for typography
 
-- **Contact Section:**  
-  - Horizontal layout filling available width  
-  - Simple form with input fields and submit button  
-  - Glassmorphic container
-
-- **Navbar:**  
-  - Fixed top navigation with logo  
-  - Links scroll to respective sections
-
-- **Design & Styling:**  
-  - Pastel color scheme (blue, pink, yellow)  
-  - Glassmorphism effect for sections  
-
----
-
-## Technologies Used
-
-- HTML5  
-- CSS3  
-- JavaScript
-- Flexbox & Grid for responsive layout  
-
----
-
-## Installation / Running Locally
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/yourusername/leann-portfolio.git
+## Project Structure
+├── index.html        # Main HTML file
+├── style.css         # Styling
+├── script.js         # Flipbook interactions
+├── img/              # Images (profile, etc.)
+└── README.md         # Project documentation
